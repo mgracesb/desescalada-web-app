@@ -31,38 +31,8 @@ class App extends React.Component {
     this.closeRR = this.closeRR.bind(this);
   }
 
-  componentDidUpdate() {
-    localStorage.setItem("currentPhase", JSON.stringify(this.state.phase));
-    localStorage.setItem(
-      "currentActivities",
-      JSON.stringify(this.state.activities)
-    );
-    localStorage.setItem("currentCity", JSON.stringify(this.state.city));
-    localStorage.setItem("otherInfo", JSON.stringify(this.state.other));
-  }
-
   componentDidMount() {
     const { month, day } = this.state;
-    const phaseInfo = JSON.parse(localStorage.getItem("currentPhase"));
-    const cityInfo = JSON.parse(localStorage.getItem("currentCity"));
-    const activitiesInfo = JSON.parse(
-      localStorage.getItem("currentActivities")
-    );
-    const otherInfo = JSON.parse(localStorage.getItem("otherInfo"));
-
-    if (
-      localStorage.getItem("currentPhase") &&
-      localStorage.getItem("currentCity") &&
-      localStorage.getItem("currentActivities") &&
-      localStorage.getItem("otherInfo")
-    ) {
-      this.setState({
-        phase: phaseInfo,
-        city: cityInfo,
-        activities: activitiesInfo,
-        other: otherInfo,
-      });
-    }
 
     if (month === 1) {
       this.setState({ month: "enero" });
