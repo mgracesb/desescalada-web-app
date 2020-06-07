@@ -174,6 +174,9 @@ const phases = [
   {
     name: "tres",
     actividades: {
+      horarios: {
+        d: "Se eliminan las franjas horarias 🕒👋🏻",
+      },
       ceremonias: {
         cultos: "si",
         bodas: "si",

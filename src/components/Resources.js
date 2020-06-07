@@ -22,8 +22,8 @@ const Resources = (props) => {
             >
               Mapa de transición a la nueva normalidad
             </a>
-            . Gobierno de España - Presidencia de Gobierno | Consultado el 24 de
-            mayo de 2020.
+            . Gobierno de España - Presidencia de Gobierno | Consultado el 7 de
+            junio de 2020.
           </li>
 
           <li>

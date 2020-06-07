@@ -83,7 +83,8 @@ class App extends React.Component {
     const result = arrays.find((array) => array[0] === value);
     const activity = Object.entries(result[1]);
     const activityList = Object.entries(results);
-    console.log(activity[2][1].mes);
+
+    console.log(date, month);
     if (
       date >= activity[0][1].dia &&
       date < activity[1][1].dia &&
@@ -100,7 +101,7 @@ class App extends React.Component {
         phase: 1,
         activities: activityList[1][1].actividades,
       });
-    } else if (date <= activity[2][1].dia && month === activity[2][1].mes) {
+    } else if (date < activity[2][1].dia && month === activity[2][1].mes) {
       this.setState({
         city: value,
         phase: 1,
@@ -112,17 +113,13 @@ class App extends React.Component {
         phase: 2,
         activities: activityList[2][1].actividades,
       });
-    } else if (date <= activity[3][1].dia && month === activity[3][1].mes) {
+    } else if (date < activity[3][1].dia && month === activity[3][1].mes) {
       this.setState({
         city: value,
         phase: 2,
         activities: activityList[2][1].actividades,
       });
-    } else if (
-      date >= activity[3][1].dia &&
-      date < 31 &&
-      month === activity[3][1].mes
-    ) {
+    } else if (date >= activity[3][1].dia && month === activity[3][1].mes) {
       this.setState({
         city: value,
         phase: 3,

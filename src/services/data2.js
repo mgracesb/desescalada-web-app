@@ -52,7 +52,7 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 1,
+        dia: 8,
         mes: "junio",
       },
       3: {
@@ -112,7 +112,7 @@ const data2 = [
         mes: "junio",
       },
       3: {
-        dia: 22,
+        dia: 8,
         mes: "junio",
       },
     },
@@ -223,7 +223,7 @@ const data2 = [
         info: "El Hierro, La Gomera y La Graciosa pasan a la fase 3",
       },
       3: {
-        dia: 16,
+        dia: 8,
         mes: "junio",
       },
     },
@@ -313,7 +313,7 @@ const data2 = [
         mes: "junio",
       },
       3: {
-        dia: 22,
+        dia: 8,
         mes: "junio",
       },
     },
@@ -365,7 +365,7 @@ const data2 = [
         mes: "mayo",
       },
       2: {
-        dia: 8,
+        dia: 7,
         mes: "junio",
       },
       3: {

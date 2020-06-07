@@ -77,4 +77,3 @@ const Activity = (props) => {
 };
 
 export default Activity;
-// añadir flecha verde apuntando hacia arriba para indicar aumento de aforo
