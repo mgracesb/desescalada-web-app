@@ -107,7 +107,11 @@ class App extends React.Component {
         phase: 1,
         activities: activityList[1][1].actividades,
       });
-    } else if (date >= activity[2][1].dia && month === activity[2][1].mes) {
+    } else if (
+      date >= activity[2][1].dia &&
+      date < activity[3][1].dia &&
+      month === activity[2][1].mes
+    ) {
       this.setState({
         city: value,
         phase: 2,
