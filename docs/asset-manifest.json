@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e0d0ebf0.chunk.css",
+    "main.js": "./static/js/main.50597a08.chunk.js",
+    "main.js.map": "./static/js/main.50597a08.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8fc2aa2a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8fc2aa2a.js.map",
+    "static/js/2.db789feb.chunk.js": "./static/js/2.db789feb.chunk.js",
+    "static/js/2.db789feb.chunk.js.map": "./static/js/2.db789feb.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.50810d7352c41e52adb9fac691def9b4.js": "./precache-manifest.50810d7352c41e52adb9fac691def9b4.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.e0d0ebf0.chunk.css.map": "./static/css/main.e0d0ebf0.chunk.css.map",
+    "static/js/2.db789feb.chunk.js.LICENSE.txt": "./static/js/2.db789feb.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/yes.509d2307.svg",
+    "static/media/catering.svg": "./static/media/catering.9b75d17c.svg",
+    "static/media/church.svg": "./static/media/church.e89da8e4.svg",
+    "static/media/funeral.svg": "./static/media/funeral.279502aa.svg",
+    "static/media/horarios.svg": "./static/media/horarios.955c263b.svg",
+    "static/media/museum.svg": "./static/media/museum.5179e07b.svg",
+    "static/media/ocio.svg": "./static/media/ocio.dbfb8a9e.svg",
+    "static/media/shopping.svg": "./static/media/shopping.2ce94e40.svg",
+    "static/media/sports.svg": "./static/media/sports.8d3b94de.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fc2aa2a.js",
+    "static/js/2.db789feb.chunk.js",
+    "static/css/main.e0d0ebf0.chunk.css",
+    "static/js/main.50597a08.chunk.js"
+  ]
+}
