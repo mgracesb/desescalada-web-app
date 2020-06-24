@@ -1,4 +1,5 @@
 import React from "react";
+import Confetti from "./components/Confetti";
 import Panel from "./components/Panel";
 import CurrentDay from "./components/CurrentDay";
 import data from "./services/data";
@@ -123,7 +124,11 @@ class App extends React.Component {
         phase: 2,
         activities: activityList[2][1].actividades,
       });
-    } else if (date >= activity[3][1].dia && month === activity[3][1].mes) {
+    } else if (
+      date >= activity[3][1].dia &&
+      date < 22 &&
+      month === activity[3][1].mes
+    ) {
       this.setState({
         city: value,
         phase: 3,
@@ -172,6 +177,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <Confetti />
         <CurrentDay month={month} date={date} day={day} year={year} />
         <Phases results={results} />
         <Panel
