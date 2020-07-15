@@ -135,7 +135,11 @@ class App extends React.Component {
         activities: activityList[3][1].actividades,
       });
     } else {
-      this.setState({ city: value, phase: 4, activities: "nueva normalidad" });
+      this.setState({
+        city: value,
+        phase: "**",
+        activities: "nueva normalidad",
+      });
     }
 
     if (activity[0][1].info !== undefined) {

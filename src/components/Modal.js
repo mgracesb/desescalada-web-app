@@ -21,8 +21,8 @@ const Modal = (props) => {
     <React.Fragment>
       <div className={id === "" ? "no-content" : "no-content hidden"}>
         <p className={id === "" ? "no-text" : "hidden"}>
-          Para visualizar contenido, primero selecciona provincia. Luego explore
-          por actividad
+          FIN DEL ESTADO DE ALARMA, BIENVENIDOS A LA NUEVA NORMALIDAD. Por
+          favor, sigan las recomendaciones sanitarias para evitar rebrotes.
         </p>
       </div>
       <div className={id !== "" ? "overlay" : "modal"} onClick={onClose}>
